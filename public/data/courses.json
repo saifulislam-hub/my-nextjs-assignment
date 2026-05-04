@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "This exhaustive bootcamp is designed to transform absolute beginners into job-ready full-stack developers. The curriculum begins with the structural foundations of the web, HTML5 and CSS3, teaching students how to build responsive, aesthetically pleasing websites from the ground up. As the course progresses, students transition into JavaScript, mastering DOM manipulation and ES6+ features. The backend portion of the course introduces Node.js and Express, allowing learners to build robust server-side applications. Data management is handled through MongoDB, providing a modern NoSQL approach to persistent storage. Beyond just coding, the course emphasizes industry workflows, including version control with Git and GitHub, deployment strategies via Heroku or Vercel, and the principles of Responsive Design to ensure applications work seamlessly across mobile and desktop devices. By the end of this 20-hour intensive, students will have completed several portfolio-ready projects, ranging from simple landing pages to complex, data-driven web applications. This is the ultimate starting point for anyone looking to break into the tech industry with a holistic understanding of how the modern internet functions.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced JavaScript Masterclass",
+    "instructor": "Sarah Smith",
+    "duration": "15 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "JavaScript is easy to pick up but notoriously difficult to master. This masterclass is tailored for developers who have moved past basic syntax and want to understand the 'magic' happening under the hood. The course dives deep into the JavaScript Engine, explaining the call stack, memory heap, and event loop to help students write highly performant code. Detailed modules cover the intricacies of Closures, Prototypal Inheritance, and the 'this' keyword, which are often the biggest pain points for intermediate developers. Furthermore, the course provides a masterclass in Asynchronous Programming, moving from callbacks to Promises and eventually to Async/Await patterns. Students will also explore functional programming concepts and design patterns like the Module and Observer patterns. By demystifying the language's quirks, Sarah Smith empowers developers to debug complex issues with ease and architect scalable frontend frameworks. Whether you are preparing for high-level technical interviews at FAANG companies or looking to optimize a large-scale production codebase, this course provides the deep technical insights required to stand out as a senior-level JavaScript engineer.",
+    "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&w=800&q=80",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Essentials",
+    "instructor": "Michael Chen",
+    "duration": "12 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "In an era where user experience defines the success of a product, this course bridges the gap between creative visual design and analytical user research. Michael Chen leads students through the entire Design Thinking process: Empathize, Define, Ideate, Prototype, and Test. The course begins with the fundamentals of User Interface (UI) design, focusing on typography, color theory, and grid systems. Students then master Figma, the industry-standard tool for collaborative design, learning how to create high-fidelity mockups and interactive prototypes. The User Experience (UX) component focuses on wireframing, user personas, and journey mapping, ensuring that every design choice is backed by user needs. Advanced topics include Accessibility (a11y) standards and building Design Systems that remain consistent across large platforms. By working on real-world case studies, learners gain the skills to conduct usability audits and iterate on designs based on feedback. This course is essential for aspiring designers or developers who want to understand the 'why' behind every pixel, ultimately creating products that are not only beautiful but also intuitive and accessible to diverse user groups.",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=800&auto=format&fit=crop",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "Python for Data Science",
+    "instructor": "Emily Watson",
+    "duration": "25 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Python has become the lingua franca of data science, and this course provides a streamlined path to mastering its analytical capabilities. Emily Watson guides students through the essential ecosystem of libraries that power modern data analysis. The journey starts with NumPy for high-performance numerical computing, followed by an extensive deep dive into Pandas, where students learn to clean, manipulate, and analyze structured data efficiently. A significant portion of the course is dedicated to Data Visualization using Matplotlib and Seaborn, teaching learners how to turn raw numbers into compelling visual stories that drive business decisions. Beyond the libraries, students learn the statistical foundations necessary to interpret data accurately, including correlation, distribution, and hypothesis testing. Real-world datasets from various industries—such as finance and healthcare—are used to provide practical experience in handling missing data, merging complex dataframes, and performing exploratory data analysis (EDA). By the conclusion, students will be proficient in using Jupyter Notebooks to document their analytical workflow, making them valuable assets to any data-driven organization looking to extract actionable insights from their digital assets.",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800&auto=format&fit=crop",
+    "category": "Data Science"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Strategy",
+    "instructor": "Alex Rivera",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "In the hyper-competitive digital landscape, a great product isn't enough; you need a sophisticated strategy to reach your audience. This course provides a high-level overview of the digital marketing funnel, from brand awareness to conversion. Alex Rivera breaks down the complexities of Search Engine Optimization (SEO), teaching students how to optimize on-page content and build backlink profiles to dominate organic search results. The curriculum also covers Search Engine Marketing (SEM) and Pay-Per-Click (PPC) advertising, specifically focusing on Google Ads and Facebook Ads Manager. Students learn how to conduct keyword research, draft compelling ad copy, and manage budgets to maximize Return on Ad Spend (ROAS). Social media growth strategies are also highlighted, emphasizing the importance of community engagement and content calendars. Finally, the course dives into Analytics, teaching students how to track user behavior through Google Analytics and use that data to refine their marketing tactics. This course is perfect for entrepreneurs, small business owners, or marketing professionals looking to modernize their skillset and drive measurable growth in an increasingly digital-first economy.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    "category": "Marketing"
+  },
+  {
+    "id": 6,
+    "title": "React Native Mobile App Development",
+    "instructor": "David Kim",
+    "duration": "18 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Building separate apps for iOS and Android is a thing of the past for many businesses. This course teaches students how to use React Native to write a single codebase that runs natively on both platforms. Leveraging the power of React, David Kim shows how to use JSX and Component-Based Architecture to build fluid mobile interfaces. The course covers essential mobile-specific concepts, such as navigating between screens with React Navigation, handling touch gestures, and integrating with native device features like the Camera, GPS, and Push Notifications. Students will also learn about state management in a mobile context, using hooks like useContext or libraries like Redux. A major focus is placed on performance optimization, ensuring that cross-platform apps feel as snappy and responsive as their purely native counterparts. From setting up the Expo environment to the final steps of preparing builds for the Apple App Store and Google Play Store, this 18-hour journey provides a comprehensive roadmap for anyone looking to enter the lucrative field of mobile app development without having to learn Swift and Kotlin simultaneously.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
+    "category": "Development"
+  },
+  {
+    "id": 7,
+    "title": "Machine Learning A-Z",
+    "instructor": "Laura Bennett",
+    "duration": "40 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Machine learning is the engine behind modern innovation, and this advanced course offers a rigorous exploration of the algorithms that make it possible. Laura Bennett moves beyond theory into practical implementation using Scikit-Learn, TensorFlow, and Keras. The course is structured logically, starting with Supervised Learning (Regression and Classification) before moving into Unsupervised Learning (Clustering and Association Rule Learning). Students will get hands-on experience with complex algorithms like Random Forests, Support Vector Machines (SVM), and Gradient Boosting. The final third of the course is a deep dive into Neural Networks and Deep Learning, where students build models for image recognition and natural language processing. Key concepts such as Overfitting, Regularization, and Hyperparameter Tuning are emphasized to ensure students build models that generalize well to unseen data. With 40 hours of content, this is a heavy-duty specialization designed for those who want to understand the mathematical foundations of AI while gaining the coding proficiency to build intelligent systems that can predict trends, categorize data, and automate decision-making processes.",
+    "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Data Science"
+  },
+  {
+    "id": 8,
+    "title": "Cybersecurity Fundamentals",
+    "instructor": "Robert Miller",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "As digital threats become more sophisticated, the demand for cybersecurity professionals has reached an all-time high. This course introduces the core pillars of information security: Confidentiality, Integrity, and Availability (the CIA Triad). Robert Miller provides a foundational understanding of network security, teaching students how to identify vulnerabilities in systems and defend against common attacks like SQL Injection, Cross-Site Scripting (XSS), and Phishing. The course explores the world of Cryptography, explaining how encryption protocols keep data safe during transmission. Students also learn about identity and access management, firewall configuration, and the basics of Ethical Hacking. Beyond the technical aspects, the course covers the human element of security—social engineering—and the legal frameworks surrounding data privacy, such as GDPR. Through virtual lab environments, learners practice securing a network and responding to simulated security breaches. This is an essential starting point for anyone looking to pursue a career as a Security Analyst or for IT professionals who want to ensure their systems are hardened against the rising tide of global cybercrime.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+    "category": "IT & Software"
+  },
+  {
+    "id": 9,
+    "title": "Financial Modeling for Beginners",
+    "instructor": "Jessica Taylor",
+    "duration": "8 hours",
+    "rating": 4.4,
+    "level": "Beginner",
+    "description": "Financial modeling is a critical skill for anyone looking to work in investment banking, corporate finance, or equity research. This course transforms basic Excel knowledge into a powerful tool for business analysis. Jessica Taylor starts with the 'Golden Rules' of financial modeling: structure, consistency, and clarity. Students learn to build the Three-Statement Model (Income Statement, Balance Sheet, and Cash Flow Statement) and link them dynamically. The curriculum covers advanced Excel functions such as VLOOKUP, INDEX/MATCH, and Data Tables, which are essential for processing large financial datasets. Learners are then guided through Valuation Techniques, including Discounted Cash Flow (DCF) analysis and Comparable Company Analysis. The course also touches on Forecasting, teaching students how to project future revenue and expenses based on historical trends and market assumptions. By the end of the course, students will be able to build a professional-grade financial model from scratch, allowing them to assess the viability of business projects, value companies, and make informed investment recommendations backed by rigorous quantitative analysis.",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
+    "category": "Finance"
+  },
+  {
+    "id": 10,
+    "title": "Node.js Backend Architecture",
+    "instructor": "Kevin Lee",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Building a backend that can handle thousands of concurrent users requires more than just knowing how to code—it requires an understanding of architecture. This course focuses on building scalable, enterprise-grade APIs using the Node.js runtime. Kevin Lee takes students through the Asynchronous Event-Driven nature of Node.js, explaining why it is uniquely suited for I/O-intensive applications. The course centers on the Express.js framework, teaching students how to implement Middleware, handle routing, and manage error logging. A major section is dedicated to database integration with MongoDB and Mongoose, focusing on data modeling, indexing for performance, and complex aggregations. Security is a top priority, with modules on JWT (JSON Web Tokens) for authentication and password hashing with Bcrypt. Students also learn about RESTful API design principles, ensuring their services are intuitive for frontend developers to consume. Advanced topics include WebSockets for real-time communication, unit testing with Jest, and containerization with Docker. This course is designed for intermediate developers who want to transition from building simple scripts to architecting complex, production-ready backend systems.",
+    "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=800&q=80",
+    "category": "Development"
+  }
+]
