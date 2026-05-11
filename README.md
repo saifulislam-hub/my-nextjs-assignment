@@ -2,7 +2,8 @@
 
 SkillSphere is a modern and responsive online learning platform where users can explore courses, view detailed course information, and enroll in skill-based programs like Web Development, Design, Marketing, and more.
 
-🌐 Live Website- https://my-nextjs-assignment-08.vercel.app
+
+
 
 📂 GitHub Repository
 
