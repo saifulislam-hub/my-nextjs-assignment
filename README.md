@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🎓 SkillSphere – Online Learning Platform
 
-## Getting Started
+SkillSphere is a modern and responsive online learning platform where users can explore courses, view detailed course information, and enroll in skill-based programs like Web Development, Design, Marketing, and more.
 
-First, run the development server:
+🌐 Live Website- https://my-nextjs-assignment-08.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📂 GitHub Repository
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 GitHub Repo Link Here
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🚀 Project Features
+🔐 Authentication system using BetterAuth
+🔑 Google Social Login
+📚 Browse all available courses
+🔎 Search courses by title
+🔒 Protected Course Details Route
+👤 User Profile Page
+✏️ Update User Information Feature
+🎥 Hero Banner Section
+⭐ Popular Courses Section
+📈 Trending Courses Section
+🏆 Top Instructors Section
+📱 Fully Responsive Design
+🌙 Modern UI with Tailwind CSS & DaisyUI
+🔔 Toast Notifications
+⏳ Loading Spinner while fetching data
+🚫 Custom 404 Not Found Page
+🔄 Persistent Navbar & Footer
+⚡ Smooth animations using Motion / SwiperJS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🛠️ Tech Stack
+Frontend
+Next.js (App Router)
+React
+Tailwind CSS
+DaisyUI
+Authentication
+BetterAuth
+Google Authentication
+UI & Animation
+Motion
+Swiper JS
+React Icons
+React Hot Toast
 
-## Learn More
+📦 NPM Packages Used
+next
+react
+react-dom
+tailwindcss
+daisyui
+better-auth
+firebase
+motion
+swiper
+react-hot-toast
+react-icons
+axios
 
-To learn more about Next.js, take a look at the following resources:
+📁 Folder Structure
+src/
+│
+├── app/
+│ ├── courses/
+│ ├── login/
+│ ├── register/
+│ ├── my-profile/
+│ ├── update-profile/
+│ └── not-found.jsx
+│
+├── components/
+│ ├── Navbar
+│ ├── Footer
+│ ├── CourseCard
+│ ├── HeroSection
+│ └── Loader
+│
+├── data/
+│ └── courses.json
+│
+├── lib/
+│ └── auth.js
+│
+└── utils/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔐 Environment Variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Create a .env.local file in the root directory and add:
 
-## Deploy on Vercel
+NEXT_PUBLIC_AUTH_URL=your_auth_url
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=your_google_client_id
+NEXT_PUBLIC_GOOGLE_CLIENT_SECRET=your_google_client_secret
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+⚠️ Never expose secret keys publicly.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📚 Course Features
+
+Each course includes:
+
+Course Image
+Title
+Instructor
+Duration
+Rating
+Level
+Category
+Detailed Description
+Curriculum Section
+🔍 Search Functionality
+
+Users can search courses dynamically by course title from the All Courses page.
+
+👤 My Profile
+
+Authenticated users can:
+
+View profile information
+Update name
+Update profile image
+🧩 Extra Functionalities
+Route protection with redirect after login
+Toast notifications for success/error
+Smooth page transitions
+Responsive navbar & footer
+Persistent layout structure
+
+📱 Responsive Design
+
+SkillSphere is optimized for:
+
+📱 Mobile
+💻 Laptop
+🖥️ Desktop
+📲 Tablet
